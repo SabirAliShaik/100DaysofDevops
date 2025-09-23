@@ -31,6 +31,7 @@
 	#chage -l javed
 	```
 	**Output**:
+    ```
 	Last password change                                    : Sep 23, 2025
 	Password expires                                        : never
 	Password inactive                                       : never
@@ -38,4 +39,4 @@
 	Minimum number of days between password change          : 0
 	Maximum number of days between password change          : 99999
 	Number of days of warning before password expires       : 7
-	
+	```
