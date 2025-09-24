@@ -1,5 +1,5 @@
 # 100 Days of DevOps — Day 2
-## Exercise: Linux User Setup with Non-Interactive Shell
+## Exercise: Temporary User Setup with Expiry
 
 ### Steps
 1. **Login to server from jump server using user credentials**
