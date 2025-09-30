@@ -19,7 +19,7 @@ For testing purposes, the following requirements were set for **App Server 2** i
 -bash: selinux: command not found
 ```
 SELinux was not installed.
----
+
 ### 2. Install SELinux packages
 ```bash
 [root@stapp02 ~]# dnf install selinux-policy selinux-policy-targeted policycoreutils policycoreutils-python-utils
@@ -130,16 +130,15 @@ Complete!
 ```
 15 packages were installed successfully, including:
 selinux-policy, selinux-policy-targeted, policycoreutils, policycoreutils-python-utils
-Dependencies like checkpolicy, libselinux-utils, python3-*
+Dependencies like checkpolicy, libselinux-utils, python3-
 ✅ Installation completed successfully.
----
+
 ### 3. Check current SELinux configuration
 ```bash
 [root@stapp02 selinux]# cat /etc/selinux/config | grep SELINUX=
 SELINUX=enforcing
 ```
 Current SELinux mode is enforcing.
----
 ### 4. Permanently disable SELinux
 Edit the config file:
 ```bash
